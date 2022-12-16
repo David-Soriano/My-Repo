@@ -11,14 +11,17 @@ package co.edu.unab.ejercicio1open;
 public class Ejercicio1Open {
 
     public static void main(String[] args) {
+        //Parte N°1
+        sumar(2, 5, 8);
+        //Parte N°2
       Coche miCoche = new Coche();
         miCoche.suma_Puertas();
         miCoche.suma_Puertas();
         miCoche.suma_Puertas();
         miCoche.suma_Puertas();
-        .suma_Puertas();
-        c.suma_Puertas();
-        System.out.println(c.N_puertas);
+        miCoche.suma_Puertas();
+        miCoche.suma_Puertas();
+        System.out.println(miCoche.N_puertas);
     }
 
     public static void sumar(int n1, int n2, int n3) {
