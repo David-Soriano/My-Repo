@@ -21,7 +21,7 @@ public class Ejercicio_N2 {
         
         while (numeroWhile < 3) {            
             numeroWhile++;
-            System.out.println(numeroWhile);
+            System.out.println("Número While "+numeroWhile);
         }
         
         //Parte N°3
@@ -29,12 +29,12 @@ public class Ejercicio_N2 {
         
         do {            
             numeroDoWhile++;
-            System.out.println(numeroDoWhile);
+            System.out.println("Número DoWhile "+numeroDoWhile);
         } while (numeroDoWhile<1);
         
         //Parte N°4
             for (int numeroFor = 0; numeroFor <= 3; numeroFor++) {
-                System.out.println(numeroFor);
+                System.out.println("Número For"+numeroFor);
         }
             
         //Parte N°5
